@@ -1,0 +1,374 @@
+@media screen and (min-width: 768px){
+    header {
+        background-color: #724E2C;
+        border: solid #020202;
+        color: #FFFFF4;
+
+        div {
+            text-align: center;
+
+            a {
+                border: solid #020202;
+                background-color: #FFFFF4;
+                color: #020202;
+            }
+        }
+    }
+
+    h1 {
+        color: #020202;
+    }
+
+    section {
+        display: flex;
+        flex-grow: 1;
+    }
+
+    footer {
+        background-color: #724E2C;
+        border: solid #020202;
+
+        div {
+            text-align: center;
+
+            a {
+                border: solid #020202;
+                background-color: #FFFFF4;
+                color: #020202;
+                align-items: center;
+            }
+        }
+    }
+
+    h2 {
+        text-decoration: underline;
+    }
+
+    html,
+    body {
+        height: 100%;
+        margin: 0;
+    }
+
+    body {
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+        font-family: sans-serif;
+        background-color: #FFFFF4;
+    }
+
+    li {
+        font-weight: bold;
+        text-decoration: underline;
+    }
+
+    .box-section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .box {
+        border: solid #020202;
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+
+    .boxed-image {
+        display: block;
+        width: 100%;
+        flex-shrink: 1;
+
+        section {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 20px;
+        }
+
+        img {
+            border: 2px solid #020202;
+            padding: 2px;
+            box-shadow: 5px 5px 10px #020202;
+        }
+
+        p {
+            text-decoration: underline wavy #724E2C;
+            font-weight: bold;
+            font-family: cursive;
+            color: #724E2C;
+            font-size: 1.4em;
+        }
+    }
+
+    a:active {
+        font-style: italic;
+        border-block-end: solid #724E2C;
+    }
+
+    dt {
+        align-items: center;
+    }
+
+    section table{
+        border: solid #020202;
+        border-collapse: collapse;
+        margin: 20px auto;
+        width: fit-content;
+    }
+
+    .hours-container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    th{
+        border: 1px solid #020202;
+        padding: 5px;
+    }
+
+    td{
+        border: 1px solid #020202;
+        padding: 5px;
+    }
+
+    .rabbit{
+        margin: 20px auto;
+        width: fit-content;
+        justify-self: center;
+    }
+
+    .pages {
+    display: inline-block;
+    white-space: nowrap;
+    }
+    
+    .bold{
+        text-align: center;
+        font-weight: bold;
+        font-size: 1.2em;
+        padding: 8px;
+    }
+
+    .services {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .law {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .columns {
+        grid-column: 2;
+        text-align: left;
+        margin: 0 auto;
+    }
+
+    .Soul{
+        display: flex;
+    }
+
+    ul li {
+        list-style: none;
+        padding-left: 25px;
+        background-image: url('../images/gavelButton.png');
+        background-repeat: no-repeat;
+        background-size: 20px 20px;
+        background-position: left center;
+    }
+
+
+}
+
+@media screen and (min-width: 350px) and (max-width: 768px) {
+    header {
+        background-color: #724E2C;
+        border: solid #020202;
+        color: #FFFFF4;
+
+        div {
+            text-align: center;
+
+            a {
+                border: solid #020202;
+                background-color: #FFFFF4;
+                color: #020202;
+            }
+        }
+    }
+
+    h1 {
+        color: #020202;
+    }
+
+    section {
+        display: flex;
+        flex-grow: 1;
+    }
+
+    footer {
+        background-color: #724E2C;
+        border: solid #020202;
+
+        div {
+            text-align: center;
+
+            a {
+                border: solid #020202;
+                background-color: #FFFFF4;
+                color: #020202;
+                align-items: center;
+            }
+        }
+    }
+
+    h2 {
+        text-decoration: underline;
+    }
+
+    html,
+    body {
+        height: 100%;
+        margin: 0;
+    }
+
+    body {
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+        font-family: sans-serif;
+        background-color: #FFFFF4;
+    }
+
+    li {
+        font-weight: bold;
+        text-decoration: underline;
+    }
+
+    .box-section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .box {
+        border: solid #020202;
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+
+    .boxed-image {
+        display: block;
+        width: 100%;
+        flex-shrink: 1;
+
+        section {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 20px;
+        }
+
+        img {
+            border: 2px solid #020202;
+            padding: 2px;
+            box-shadow: 5px 5px 10px #020202;
+        }
+
+        p {
+            text-decoration: underline wavy #724E2C;
+            font-weight: bold;
+            font-family: cursive;
+            color: #724E2C;
+            font-size: 1.4em;
+        }
+    }
+
+    a:active {
+        font-style: italic;
+        border-block-end: solid #724E2C;
+    }
+
+    dt {
+        align-items: center;
+    }
+
+    table{
+        border: solid #020202;
+        block-size: max;
+        border-collapse: collapse;
+        margin: 20px auto;
+        width: fit-content;
+    }
+
+    th{
+        border: solid #020202;
+        padding: 5px;
+    }
+
+    td{
+        border: solid #020202;
+        padding: 5px;
+    }
+
+    .pages {
+    display: inline-block;
+    white-space: nowrap;
+    }
+
+    .rabbit{
+        display: none;
+    }
+
+    .bold{
+        text-align: center;
+        font-weight: bold;
+        font-size: 1.2em;
+        padding: 8px;
+    }
+
+    .services {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .law {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .columns {
+        grid-column: 2;
+        text-align: left;
+        margin: 0 auto;
+    }
+
+    .hide{
+        display: none;
+    }
+
+    .Soul{
+        display: flex;
+    }    
+
+    ul li {
+        list-style: none;
+        padding-left: 25px;
+        background-image: url('../images/gavelButton.png');
+        background-repeat: no-repeat;
+        background-size: 20px 20px;
+        background-position: left center;
+    }
+
+    video{
+        width: fit-content;
+    }
+
+}
