@@ -16,6 +16,7 @@ This folder should contain work from the first year of the Computer Science Prog
 List the projects/assignments you completed in the first semester with [hyperlinks](./Static-Website). Also, mention the technologies and skills you acquired e.g.
 - Design and implementation of a [static website](./Static-Website) using HTML and CSS. We learned about responsive web design, wireframes, a wide variety of selectors css, plenty of tags in html.
   Links for website: https://csdevwww.cegep-heritage.qc.ca/Students/2568532/JXu_H10A03/index.html
+  
   https://toaoak1.github.io/Website/
 - Mathématiques pour l'informatique (Math for programming) [problem solving reflection](./Problem-Solving-Reflection)
 - Hardware and Operating Systems. We learned about the components of a computer, how to use the command line, batch files and also how to make an order for a client.
