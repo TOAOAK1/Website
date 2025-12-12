@@ -26,88 +26,90 @@
             <a class = "pages hide" href = "./testimonials.html">Testimonials</a>
         </div>
     </header>
-    <h2>Forms to contact us</h2>
-    <section class="services">
-        <form method="get" action="./redirect.html">
-        <fieldset>
-            <legend>Personal information</legend>
-            <label for="name">Name: </label>
-            <input id="name" type="text" placeholder="Enter your name"><br>
-            <label for="email">Email: </label>
-            <input id="email" type="email" placeholder="Enter your email"><br>
-            <label for="age">Age: </label>
-            <input type="number" id="age" min="18" max="120" placeholder="18"><br>
-        </fieldset>
-        <fieldset>
-            <legend>What help do you need</legend>
-            <label>
-                <input type="checkbox" value="Lawyer" name="help">
-                Lawyer
-            </label>
-            <label>
-                <input type="checkbox" value="Appointment" name="help">
-                Appointment
-            </label>
-            <label>
-                <input type="checkbox" value="Other" name="help">
-                Other
-            </label> <br> <br>
-            <label>
-                If you chose "Other" please enter what other services you are looking for <br>
-                <textarea placeholder="Other services"></textarea>
-            </label>
-        </fieldset>
-        <fieldset>
-            <legend>If you chose "lawyer" in the earlier checkbox, choose what type of lawyer you need (if you dont know, please look at <a href=./services.html> our services)</a>.</legend>
-            <input id="lawyer" name="lawyer" type="radio" value="Business/Corporate lawyer">
-            <label for="lawyer">Business/Corporate lawyer</label><br>
-            <input id="lawyer" name="lawyer" type="radio" value="Bankruptcy lawyer">
-            <label for="lawyer">Bankruptcy lawyer</label><br>
-            <input id="lawyer" name="lawyer" type="radio" value="Tax lawyer">
-            <label for="lawyer">Tax lawyer</label> <br>
-            <input id="lawyer" name="lawyer" type="radio" value="Criminal defense lawyer">
-            <label for="lawyer">Criminal defense lawyer</label> <br>
-            <input id="lawyer" name="lawyer" type="radio" value="Constitutional lawyer">
-            <label for="lawyer">Constitutional lawyer</label> <br>
-            <input id="lawyer" name="lawyer" type="radio" value="Employment and labor lawyer">
-            <label for="lawyer">Employment and labor lawyer</label> <br>
-            <input id="lawyer" name="lawyer" type="radio" value="Entertainment lawyer">
-            <label for="lawyer">Entertainment lawyer</label> <br>
-            <input id="lawyer" name="lawyer" type="radio" value="Estate planning lawyer">
-            <label for="lawyer">Estate planning lawyer</label> <br>
-            <input id="lawyer" name="lawyer" type="radio" value="Family lawyer">
-            <label for="lawyer">Family lawyer</label>
-        </fieldset>
-        <fieldset>
-            <legend>How did you find out about us?</legend>
-            <label for="origin"></label>
-            <select id="origin">
-                <optgroup label="Recommendation">
-                    <option>Friend</option>
-                    <option>Family</option>
-                    <option>Colleague</option>
-                    <option>Website (searching for lawyers)</option>
-                </optgroup>
-                <optgroup label="Random">
-                    <option>Ads</option>
-                    <option>Poster</option>
-                </optgroup>
-                <option>None of the above</option>
-            </select> <br>
-            <textarea placeholder="Other ways"></textarea>
-        </fieldset>
-        <fieldset>
-            <label>
-                Do you have any questions? <br>
-                <textarea placeholder="..."></textarea>
-            </label>
-        </fieldset>
-        <fieldset>
-            <input type="submit" value="Submit Form">
-            <input type="reset" value="Reset Fields">
-        </fieldset>
-        </form>
-    </section>
+    <main>
+        <h2>Forms to contact us</h2>
+        <section class="services">
+            <form method="get" action="./redirect.html">
+            <fieldset>
+                <legend>Personal information</legend>
+                <label for="name">Name: </label>
+                <input id="name" type="text" placeholder="Enter your name"><br>
+                <label for="email">Email: </label>
+                <input id="email" type="email" placeholder="Enter your email"><br>
+                <label for="age">Age: </label>
+                <input type="number" id="age" min="18" max="120" placeholder="18"><br>
+            </fieldset>
+            <fieldset>
+                <legend>What help do you need</legend>
+                <label>
+                    <input type="checkbox" value="Lawyer" name="help">
+                    Lawyer
+                </label>
+                <label>
+                    <input type="checkbox" value="Appointment" name="help">
+                    Appointment
+                </label>
+                <label>
+                    <input type="checkbox" value="Other" name="help">
+                    Other
+                </label> <br> <br>
+                <label>
+                    If you chose "Other" please enter what other services you are looking for <br>
+                    <textarea placeholder="Other services"></textarea>
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>If you chose "lawyer" in the earlier checkbox, choose what type of lawyer you need (if you dont know, please look at <a href=./services.html> our services)</a>.</legend>
+                <input id="lawyer" name="lawyer" type="radio" value="Business/Corporate lawyer">
+                <label for="lawyer">Business/Corporate lawyer</label><br>
+                <input id="lawyer" name="lawyer" type="radio" value="Bankruptcy lawyer">
+                <label for="lawyer">Bankruptcy lawyer</label><br>
+                <input id="lawyer" name="lawyer" type="radio" value="Tax lawyer">
+                <label for="lawyer">Tax lawyer</label> <br>
+                <input id="lawyer" name="lawyer" type="radio" value="Criminal defense lawyer">
+                <label for="lawyer">Criminal defense lawyer</label> <br>
+                <input id="lawyer" name="lawyer" type="radio" value="Constitutional lawyer">
+                <label for="lawyer">Constitutional lawyer</label> <br>
+                <input id="lawyer" name="lawyer" type="radio" value="Employment and labor lawyer">
+                <label for="lawyer">Employment and labor lawyer</label> <br>
+                <input id="lawyer" name="lawyer" type="radio" value="Entertainment lawyer">
+                <label for="lawyer">Entertainment lawyer</label> <br>
+                <input id="lawyer" name="lawyer" type="radio" value="Estate planning lawyer">
+                <label for="lawyer">Estate planning lawyer</label> <br>
+                <input id="lawyer" name="lawyer" type="radio" value="Family lawyer">
+                <label for="lawyer">Family lawyer</label>
+            </fieldset>
+            <fieldset>
+                <legend>How did you find out about us?</legend>
+                <label for="origin"></label>
+                <select id="origin">
+                    <optgroup label="Recommendation">
+                        <option>Friend</option>
+                        <option>Family</option>
+                        <option>Colleague</option>
+                        <option>Website (searching for lawyers)</option>
+                    </optgroup>
+                    <optgroup label="Random">
+                        <option>Ads</option>
+                        <option>Poster</option>
+                    </optgroup>
+                    <option>None of the above</option>
+                </select> <br>
+                <textarea placeholder="Other ways"></textarea>
+            </fieldset>
+            <fieldset>
+                <label>
+                    Do you have any questions? <br>
+                    <textarea placeholder="..."></textarea>
+                </label>
+            </fieldset>
+            <fieldset>
+                <input type="submit" value="Submit Form">
+                <input type="reset" value="Reset Fields">
+            </fieldset>
+            </form>
+        </section>
+    </main>
     <footer>
         <div>
             <a class = "pages" href = "./index.html">Home</a>
@@ -123,7 +125,7 @@
             </h4>
         </div>
         <p>badmanlaw.ca</p>
-        <p>Credits: <a href="https://smashinglogo.com/en/?msclkid=b6a711fa8a9a1f57289f78c6f163e8bf">Website used to make the logo</a></p>
+        <p>Credits: <a href="https://smashinglogo.com/en/?msclkid=b6a711fa8a9a1f57289f78c6f163e8bf" target="_blank">Website used to make the logo</a></p>
     </footer>
 </body>
 </html>
